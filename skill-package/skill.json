@@ -1,0 +1,32 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "A Modern Typescript Skill Example",
+          "examplePhrases": ["Alexa open hello world", "hello", "help"],
+          "name": "Hello TypeScript World",
+          "description": "Sample Full Description"
+        },
+        "fr-FR": {
+          "summary": "Un exemple moderne de skill écrit en TypeScript",
+          "examplePhrases": [
+            "Alexa ouvre bonjour tout le monde",
+            "bonjour",
+            "qu'est-ce que je dois faire"
+          ],
+          "name": "Hello TypeScript World",
+          "description": "Sample Full Description"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {}
+    },
+    "manifestVersion": "1.0"
+  }
+}

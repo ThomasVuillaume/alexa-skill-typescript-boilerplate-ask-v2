@@ -1,0 +1,36 @@
+# This is the localization file. Please, modify the values so that they align
+# with your voice app responses for this locale
+
+Test-Suite-Description-General: Tests généraux pour le fr-FR
+Test-Suite-Description-Hello: Tests pour dire bonjour
+---
+# Test Names
+Launch-then-ask-for-help: Lancer puis demander de l'aide
+Ask-for-help-then-stop: Lancer puis demander de l'aide et s'arrêter
+Launch-then-stop: Lancer puis s'arrêter
+Ask-for-help-then-cancel: Lancer puis demander de l'aide et annuler
+Launch-then-endSession: Lancer puis arrêter la session
+Launch-then-say-hello: Lancer puis dire bonjour
+---
+## PROMPTS
+# Launch
+launchPrompt: Bienvenue dans un exemple complet de Skill écrit en TypeScript, vous pouvez dire bonjour !
+# Help
+helpPrompt: Vous pouvez me dire bonjour !
+helpCardContent: Vous pouvez me dire bonjour !
+helpCardTitle: Hello World en TypeScript
+# Stop
+stopPrompt: À bientôt !
+stopCardContent: À bientôt !
+stopCardTitle: Hello World en TypeScript
+# Cancel
+cancelPrompt: OK, à bientôt !
+cancelCardContent: OK, à bientôt !
+cancelCardTitle: Hello World en TypeScript
+# Hello World
+helloPrompt: Bonjour tout le monde !
+helloCardContent: Bonjour tout le monde !
+helloCardTitle: Hello World en TypeScript
+# Error
+errPrompt: Désolé, je n'ai pas compris votre demande. Pouvez-vous répéter ?
+errRePrompt: Désolé, je ne comprends toujours pas.

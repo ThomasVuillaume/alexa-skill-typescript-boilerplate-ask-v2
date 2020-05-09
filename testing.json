@@ -1,0 +1,27 @@
+{
+  "handler": "lambda/.build/index.js",
+  "locales": ["en-US", "fr-FR"],
+  "interactionModel": "skill-package/interactionModels/custom/en-US.json",
+  "trace": false,
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "lambda/.build/**/*.js",
+      "!lambda/**/*.js",
+      "!**/coverage/**",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ],
+    "coverageDirectory": "./test_output/coverage/",
+    "moduleFileExtensions": ["ts", "js", "yml"],
+    "silent": false,
+    "testMatch": [
+      "**/test/*.yml",
+      "**/tests/*.yml",
+      "**/*.e2e.yml",
+      "**/*.spec.yml",
+      "**/*.test.yml"
+    ],
+    "verbose": true
+  }
+}
