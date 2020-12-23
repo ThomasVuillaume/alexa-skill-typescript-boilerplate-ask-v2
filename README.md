@@ -25,22 +25,13 @@ This project was based on some other projects, in particular:
 
 A global installation is required for the following packages:
 
-- gulp-cli [3.9.1]
-- ask-cli [2.6.0]
-- bespoken-tools [2.4.65]
+- gulp-cli [2.3.0]
+- ask-cli [2.22.0]
+- bespoken-tools [2.4.88]
 
-TypeScript installed is ^2.9.2, because according to [ask-sdk-core v2.8.0](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs/tree/2.0.x/ask-sdk-core) homepage:
+TypeScript installed is 3.9.7, and is a dev-dependency.
 
-```text
-Pre-requisites
-
-Before you can begin using these TypeScript definitions with your project, you need to make sure your project meets a few of these requirements:
-
-    * Use TypeScript v2.x
-    * Includes the TypeScript definitions for node. You can use npm to install this by typing the following into a terminal window: npm install --save-dev @types/node
-```
-
-This project has been built using `ask-cli`. It needs it to run.
+This project has been built using `ask-cli`. It needs it to run. If you have'nt configured it yet, please [follow those instructions](https://github.com/alexa/ask-cli#getting-started).
 
 Full API reference is available [here](https://developer.amazon.com/fr-FR/docs/alexa/smapi/ask-cli-command-reference.html)
 
