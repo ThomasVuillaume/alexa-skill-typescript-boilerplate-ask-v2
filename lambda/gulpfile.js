@@ -9,7 +9,7 @@ var tsProject = ts.createProject('tsconfig.json');
  * Hence, here, CWD value is absolute path leadind to "".ask/lambda" */
 var CWD = process.cwd();
 /* When the task "post-install-hook" executes,
-   wz are tagetting files already copied in the .ask folder.
+   we are tagetting files already copied in the .ask folder.
    Thus, we can leave the the freshly compiled js fies in place.*/
 var OUT_DIR = '.';
 
