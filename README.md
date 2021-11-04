@@ -25,9 +25,9 @@ This project was based on some other projects, in particular:
 
 A global installation is required for the following packages:
 
-- gulp-cli [2.3.0]
-- ask-cli [2.22.0]
-- bespoken-tools [2.4.88]
+- gulp-cli [2.3.0] : `npm install -g gulp-cli`
+- ask-cli [2.24.0] : `npm install -g ask-cli`
+- bespoken-tools [2.4.105] : `npm install -g bespoken-tools`
 
 TypeScript installed is 3.9.7, and is a dev-dependency.
 
